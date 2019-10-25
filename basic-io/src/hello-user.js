@@ -1,4 +1,4 @@
-const readlineSync = require("readline-sync");
+const ReadlineSync = require("readline-sync");
 
-const name = readlineSync.question("\nHi! What's your name?\n");
-console.log("\nHello, " + name + "!");
+const Name = ReadlineSync.question("\nHi! What's your name?\n");
+console.log("\nHello, " + Name + "!");
