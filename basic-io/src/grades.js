@@ -1,20 +1,20 @@
-const readlineSync =require('readline-Sync');
+const ReadlineSync =require('readline-Sync');
 
-const hw1 =readlineSync.question("\nEnter three homework grades.\n");
-const hw2 = readlineSync.question();
-const hw3 = readlineSync.question();
+const Hw1 =ReadlineSync.question("\nEnter three homework grades.\n");
+const Hw2 = ReadlineSync.question();
+const Hw3 = ReadlineSync.question();
 
-const qz1 = readlineSync.question('\nEnter three quiz grades.\n');
-const qz2 = readlineSync.question();
-const qz3 = readlineSync.question();
+const Qz1 = ReadlineSync.question('\nEnter three quiz grades.\n');
+const Qz2 = ReadlineSync.question();
+const Qz3 = ReadlineSync.question();
 
-const te1 = readlineSync.question('\nEnter three test grades.\n');
-const te2 = readlineSync.question();
-const te3 = readlineSync.question();
+const Te1 = ReadlineSync.question('\nEnter three test grades.\n');
+const Te2 = ReadlineSync.question();
+const Te3 = ReadlineSync.question();
 
-const hw = (hw1 * 0.15 + hw2 * 0.15 + hw3 * 0.15);
-const qz = (qz1 * 0.35 + qz2 * 0.35 + qz3 * 0.35);
-const te = (te1 * 0.50 + te2 * 0.50 + te3 * 0.50);
+const Hw = (Hw1 * 0.15 + Hw2 * 0.15 + Hw3 * 0.15);
+const Qz = (Qz1 * 0.35 + Qz2 * 0.35 + Qz3 * 0.35);
+const Te = (Te1 * 0.50 + Te2 * 0.50 + Te3 * 0.50);
 
-const grade = (hw + qz+ te)/3
-console.log('\nYour marking period grade is ' + grade.toFixed(2) + '%.')
+const Grade = (Hw + Qz + Te)/3
+console.log('\nYour marking period grade is ' + Grade.toFixed(2) + '%.')
