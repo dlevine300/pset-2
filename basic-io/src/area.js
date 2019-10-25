@@ -1,8 +1,8 @@
-const readlineSync =require('readline-Sync');
-const width =readlineSync.question('\nWidth: ');
-const length =readlineSync.question('Length: ');
-const answer =(length * width)
-const conversion_l =length * 25.4
-const conversion_w =width * 25.4
-const area =(conversion_l * conversion_w).toLocaleString('en', { minimunFractionDigits: 2, maximumFractionDigits: 2})
-console.log('\nA(n) '+ width + '-by-' + length + '-inch sheet paper has an area of ' + area + ' square millimeter(s).')
+const ReadlineSync =require('readline-Sync');
+const Width =ReadlineSync.question('\nWidth: ');
+const Length =ReadlineSync.question('Length: ');
+const Answer =(Length * Width)
+const Conversion_l =Length * 25.4
+const Conversion_w =Width * 25.4
+const Area =(Conversion_l * Conversion_w).toLocaleString('en', { minimunFractionDigits: 2, maximumFractionDigits: 2})
+console.log('\nA(n) '+ Width + '-by-' + Length + '-inch sheet paper has an area of ' + Area + ' square millimeter(s).')
